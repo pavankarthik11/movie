@@ -1,0 +1,74 @@
+body {
+  background: #0a1a2f url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #0073e6;
+}
+
+.nav {
+  margin-top: 15px;
+}
+
+.nav button {
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #888;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav button:hover {
+  background-color: #555;
+}
+
+.section {
+  margin: 30px;
+  padding: 20px;
+  border: 2px dotted #ccc;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #00ffff;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.image-row img {
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: transform 0.2s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.1);
+}
